@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    margin: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+#gameArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(144, 144, 144);
+
+    width: 600px;
+    height: 600px;
+
+}
+
+canvas {
+    border: 5px solid #e50000;
+    width: 600px;
+    height: 600px;
+}
